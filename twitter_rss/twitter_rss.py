@@ -1,5 +1,5 @@
-#!/usr/bin/python
-'''A library that provides a python interface to the Twitter API'''
+#!/usr/bin/env python
+'''A library that provides a python interface to the Twitter API for RSS feeds'''
 
 __author__ = 'Derek Springer'
 __author_email__ = 'derekspringer@gmail.com'
