@@ -2,7 +2,7 @@
 *~
 *.pyc
 *.log
-secrets
+secrets.py
 
 /.project
 /.pydevproject
