@@ -15,6 +15,9 @@ Dependencies
 ------------
 * [feedparser](http://www.feedparser.org/)
 * [python-twitter](http://code.google.com/p/python-twitter/)
+* [simplejson](http://pypi.python.org/pypi/simplejson/)
+* [oauth2](http://pypi.python.org/pypi/oauth2)
+* [httplib2](http://code.google.com/p/httplib2/)
 
 Installing twitter-rss
 -----------------------------
@@ -25,7 +28,7 @@ Installing twitter-rss
 '''
  
 setup(
-    name='TwitterRSS',
+    name='RSSTweeter',
     author=__author__ ,
     author_email='derekspringer@gmail.com',
     url='http://github.com/dbspringer/RSSTweeter',
@@ -42,7 +45,13 @@ setup(
     keywords='twitter,rss',
     license='BSD',
     packages=find_packages(),
-    install_requires=['setuptools',  'feedparser',  'twitter'],
+    install_requires=[
+        'setuptools',
+        'feedparser',
+        'python-twitter',
+        'simplejson',
+        'oauth2',
+        'httplib2'],
     include_package_data=True,
 )
 
