@@ -5,10 +5,11 @@ __author__ = 'Derek Springer'
 __author_email__ = 'derekspringer@gmail.com'
 __version__ = '0.1.0'
 
-class TwitterRSS:
+class RSSTweeter:
     """
     a simple tool to read an RSS feed and post any new entries to a twitter feed.
     """
     
     def hello(self):
         return 'hello'
+

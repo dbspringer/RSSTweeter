@@ -5,7 +5,7 @@ __author__ = 'Derek Springer'
 __version__= '0.1.0'
  
 LONG_DESCRIPTION = '''
-twitter-rss
+RSSTweeter
 ==================
 
 This is a simple tool to read an RSS feed and post any new entries to a 
@@ -25,10 +25,10 @@ Installing twitter-rss
 '''
  
 setup(
-    name='twitter-rss',
+    name='TwitterRSS',
     author=__author__ ,
     author_email='derekspringer@gmail.com',
-    url='http://github.com/dbspringer/twitter-rss',
+    url='http://github.com/dbspringer/RSSTweeter',
     version=__version__,
     description='A simple tool to read an RSS feed and post any new entries to a twitter feed.',
     long_description=LONG_DESCRIPTION,
@@ -45,3 +45,4 @@ setup(
     install_requires=['setuptools',  'feedparser',  'twitter'],
     include_package_data=True,
 )
+
